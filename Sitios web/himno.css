@@ -39,7 +39,7 @@ body{
     text-align: center;
     margin: 0 10px 0 0;
 }
-.c3 li{
+.c3 a{
     padding: 2px 7px 2px 7px;
     color: #ffffff;
     text-decoration: none;
@@ -53,4 +53,20 @@ body{
     position: relative;
     left: 500px;
     top: -40px;
+}
+.c5
+{
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 38;
+    position: relative;
+    top: -850px;
+    left: 850px;
+}
+.c6
+{
+    width:500px ;
+    height: 700px;
+    position: relative;
+    top: -830px;
+    left: 700px;
 }
