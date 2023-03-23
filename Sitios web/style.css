@@ -1,0 +1,99 @@
+body{
+    background-color: #cccccc;
+    font-family: 'Inter', sans-serif;
+}
+
+.c2{
+    background-color: #ffffff;
+    width: 1850px;
+    height: 300px;
+    margin: 20px;
+}
+.c1{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+.c0{
+    position: relative;
+    top: 10px;
+    left: 800px;
+}
+
+.c3 ul{
+    background-color: #39A900 ;
+    width: 1810px;
+    height: 10px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    list-style-type: none;
+    text-align: center;
+}
+.c3 li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+   
+}
+.c3 li
+{
+    text-decoration:none;
+    color: #f1f1f1f1;
+    padding: 2px 7px 2px 7px;
+}
+.c4{
+    background-color: #ffffff;
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    top: -40px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.redes 
+{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 50px;
+}
+.redes a 
+{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582) ;
+    transition: all .4s aese-in-out;
+    overflow: hidden;
+
+    
+}
+.redes a hover{
+    transform: scale(1.2);
+}
+.c5
+{
+    position: relative;
+  
+}
+.c6
+{
+    overflow: hidden;
+    position: relative;
+}
