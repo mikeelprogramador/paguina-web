@@ -77,3 +77,26 @@ body{
     top: -800px;
     left: 600;
 }
+.azul
+{
+    width: 1850;
+    height: 50px;
+    background-color:#00324D ;
+    position: relative;
+    top: -1770px;
+    left: 20px;
+}
+.c12
+{
+    width: 1850;
+    height: 20px;
+    background-color:#00324D ;
+    position: relative;
+    left: 500ox;
+}
+.c22
+{
+    height: 50px;
+    position: absolute;
+    left:500px;
+}

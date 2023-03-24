@@ -93,4 +93,25 @@ body{
     top:-1500px ;
     left: 1040px;
 }
+.rojo
+{
+    width: 1850px;
+    height: 50px;
+    margin: 20px;
+    background-attachment: #00324D;
+    position: relative;
+    top: -1170px;
+  
+    
+   
+}
+.rojo1
+{
+    width: 1850;
+    height: 50px;
+    background-color:#00324D ;
+    position: relative;
+    top: -1470px;
+}
+
     
