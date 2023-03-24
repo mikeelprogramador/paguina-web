@@ -54,11 +54,26 @@ body{
     left: 500px;
     top: -40px;
 }
-.c5
-{
-    width:500px ;
-    height: 700px;
+.c5{
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 38;
     position: relative;
-    top: -830px;
+    top: -850px;
     left: 700px;
+}
+.c6
+{
+    width:300px ;
+    height: 200px;
+    position: relative;
+    top: -730px;
+    left: 750px;
+}
+.c7
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    position: relative;
+    top: -800px;
+    left: 600;
 }
