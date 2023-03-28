@@ -63,7 +63,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     position: relative;
-    top: 50px;
+    top: 70px;
+}
+.c6
+{
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 38;
+    position: relative;
+    top: 20px;
+
 }
 .c7
 {
