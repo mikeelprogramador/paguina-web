@@ -58,32 +58,39 @@ body{
     font-family:'Roboto Condensed', sans-serif ;
     font-size: 38;
     position: relative;
-    top: -850px;
-    left: 600px;
-}
-.c6
-{
-    width:300px ;
-    height: 200px;
-    position: relative;
-    top: -730px;
-    left: 750px;
+    top: 50px;
+    left: 10px;
 }
 .c7
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     position: relative;
-    top: -800px;
-    left: 600;
+    top: 80px;
+    left: 10;
 }
+.c6
+{
+    width:350px ;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+.c32
+{
+    position: relative;
+    left: 10px;
+    top: 90px;
+}
+
 .azul
 {
     width: 1850;
     height: 50px;
     background-color:#00324D ;
     position: relative;
-    top: -1755px;
+    top: -1175px;
     left: 20px;
 }
 .c12

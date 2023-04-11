@@ -2,13 +2,24 @@ body{
     background-color: #cccccc;
     font-family: 'Inter', sans-serif;
 }
+.contenedor
+{
+    width: 180%;
+    max-width: 2000px;
+    overflow: hidden;
+    display: block;
+    word-wrap: break-word;
+    
+}
 
 .c2{
     background-color: #ffffff;
-    width: 1850px;
+    width: 97%;
     height: 300px;
     margin: 20px;
+    box-sizing: border-box;
 }
+
 .c1{
     position: relative;
     top: 50px;
@@ -20,40 +31,42 @@ body{
     left: 800px;
 }
 
+
 .c3 ul{
     background-color: #39A900 ;
-    width: 1810px;
+    width: 95%;
     height: 10px;
     margin: 20px;
     padding: 20px;
     position: relative;
     top: -20px;
     list-style-type: none;
-    text-align: center;
-
-    
-    
+    text-align: center;  
 }
+
 .c3 li{
     display: inline;
     text-align: center;
     margin: 0 10px 0 0;
+   
 }
-.c3 a{
+.c3 a
+{
+    text-decoration:none;
+    color: #f1f1f1f1;
     padding: 2px 7px 2px 7px;
-    color: #ffffff;
-    text-decoration: none;
+    
 }
 .c4{
     background-color: #ffffff;
-    width: 800px;
+    width: 45%;
     height: 800px;
     margin: 20px;
     text-align: center;
     position: relative;
     left: 500px;
     top: -40px;
-
+    box-sizing: border-box;
 }
 .c7
 {
@@ -71,12 +84,17 @@ body{
     top: -130px;
     left: -40px;
 }
+.c88
+{
+    position: relative;
+    top: -450px;
+}
 .rojo
 {
     width: 1850px;
     height: 50px;
     margin: 20px;
-    background-attachment: #00324D;
+    background-color: #00324D;
     position: relative;
     top: -1170px;
     
@@ -84,7 +102,46 @@ body{
 }
 .rojo1
 {
-    width: 1850;
+    width: 104.9%;
     height: 50px;
     background-color:#00324D ;
+}
+@media screen and (max-width:800px) {
+    .c2{
+        width: 95.5%;
+       
+    }
+    
+    .c3{
+        width: 95.5%;
+    }
+    .c4{
+        width: 60%;
+        position: relative;
+       left: 200px;
+ 
+       
+    }
+    .rojo{
+        width: 91.2%;
+        position: relative;
+       top: -1170px;
+       
+    }
+    .c0{
+        width: 35%;
+        position: relative;
+        left: 100px;
+    }
+    .c1{
+        width: 35%;
+        position: relative;
+        left: -1px;
+    }
+    .c8{
+        width: 90%;
+        position: relative;
+        left: -200px;
+    }
+    
 }

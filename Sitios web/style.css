@@ -1,14 +1,25 @@
+
 body{
     background-color: #cccccc;
     font-family: 'Inter', sans-serif;
 }
+.contenedor
+{
+    width: 180%;
+    max-width: 2000px;
+    overflow: hidden;
+    display: block;
+    word-wrap: break-word;
+}
 
 .c2{
     background-color: #ffffff;
-    width: 1850px;
+    width: 97%;
     height: 300px;
     margin: 20px;
+    box-sizing: border-box;
 }
+
 .c1{
     position: relative;
     top: 50px;
@@ -20,17 +31,19 @@ body{
     left: 800px;
 }
 
+
 .c3 ul{
     background-color: #39A900 ;
-    width: 1810px;
+    width: 95%;
     height: 10px;
     margin: 20px;
     padding: 20px;
     position: relative;
     top: -20px;
     list-style-type: none;
-    text-align: center;
+    text-align: center;  
 }
+
 .c3 li{
     display: inline;
     text-align: center;
@@ -45,13 +58,14 @@ body{
 }
 .c4{
     background-color: #ffffff;
-    width: 1000px;
+    width: 50%;
     height: 800px;
     margin: 20px;
     text-align: center;
     position: relative;
     left: 500px;
     top: -40px;
+    box-sizing: border-box;
 }
 .redes
 {
@@ -61,8 +75,8 @@ body{
     width: 60px;
     height: 60px;
     position: relative;
-    top: -178px;
-    left: 1320px;
+    top: 650px;
+    left: 400px;
 }
 .c5
 {
@@ -72,25 +86,27 @@ body{
     width: 60px;
     height: 60px;
     position: relative;
-    top: -120px;
-    left: 700px;
+    top: 295px;
+    left: 250px;
 }
 .c7
 {
     font-family:'Roboto Condensed', sans-serif ;
     font-size: 38;
     position: relative;
-    left: 550px;
-    top: -950px;
+    left: 20px;
+    top: -70px;
 }
+
 .c8
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     position: relative;
-    left: 550px;
-    top: -900;
+    left: 20px;
+    top: -50;
 }
+
 .c9
 {
     
@@ -108,12 +124,12 @@ body{
     height: 50px;
     background-color:#00324D ;
     position: relative;
-    top: -1805px;
+    top: -1170px;
     left: 20px;
 }
 .c12
 {
-    width: 1850;
+    width: 104.9%;
     height: 20px;
     background-color:#00324D ;
     position: relative;
@@ -124,4 +140,61 @@ body{
     height: 50px;
     position: absolute;
     left:500px;
+}
+
+@media screen and (max-width:800px) {
+    .c2{
+        width: 94%;
+       
+    }
+    .c3{
+        width: 94%;
+    }
+    .c4{
+        width: 50%;
+        position: relative;
+       left: 200px;
+       height: 200%;
+       
+    }
+    .azul
+    {       
+        width: 89.6%;
+        position: relative;
+        top: -1430px;
+    }
+    .c1{
+        width: 40%;
+        position: relative;
+        left: -1px;
+    }
+    .c0{
+        width: 40%;
+        position: relative;
+        left: 100px;
+    }
+    .c8{
+        width: 90%;
+        font-size: 16px;
+    }
+    .c9{
+        width: 50%;
+        position: relative;
+        left: 200px;
+       
+    }
+    .redes{
+        width: 50%;
+        position: relative;
+        left: -13px;
+        top: 950px;
+    }
+    .c5
+    {
+        width: 50%;
+        position: relative;
+        left: 130px;
+        top: 443px;
+        
+    }
 }

@@ -62,8 +62,8 @@ body{
     font-family:'Roboto Condensed', sans-serif ;
     font-size: 38;
     position: relative;
-    top: -1050px;
-    left: 600px; 
+    top: 50px;
+    left: -100px; 
     
 }
 .c6
@@ -71,18 +71,23 @@ body{
     width:500px ;
     height: 700px;
     position: relative;
-    top: -1000px;
-    left: 530px;
-    
-
+    top: 100px;
+    left: -230px;
 }
+.c88
+{
+    position: relative;
+    top: 100px;
+    left: -300px;
+}
+
 .c7
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     position: relative;
-    top:-1700px ;
-    left: 1035px;
+    top:-600px ;
+    left: 260px;
 }
 .c8
 {
@@ -90,8 +95,8 @@ body{
     height: 60px;
     border-radius: 100%;
     position: relative;
-    top:-1500px ;
-    left: 1350px;
+    top:-450px ;
+    left: 900px;
 }
 .rojo
 {
@@ -111,7 +116,7 @@ body{
     height: 50px;
     background-color:#00324D ;
     position: relative;
-    top: -1470px;
+    top: -200px;
 }
 
     
